@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Job Alert &amp; Vacancy App</string>
+
+
+    <!-- Main Screen -->
+    <string name="job_list_title">Available Jobs</string>
+
+    <!-- Job Item -->
+    <string name="job_title">Job Title</string>
+    <string name="job_company">Company Name</string>
+
+    <!-- Job Detail Screen -->
+    <string name="job_details">Job Details</string>
+    <string name="job_description">Job Description</string>
+
+</resources>

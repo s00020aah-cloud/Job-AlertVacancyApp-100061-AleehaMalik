@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Job Title -->
+        <TextView
+            android:id="@+id/detailTitle"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1E88E5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Company Name -->
+        <TextView
+            android:id="@+id/detailCompany"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:paddingTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Location -->
+        <TextView
+            android:id="@+id/detailLocation"
+            android:textSize="16sp"
+            android:textColor="#777777"
+            android:paddingTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Salary -->
+        <TextView
+            android:id="@+id/detailSalary"
+            android:textSize="16sp"
+            android:textColor="#777777"
+            android:paddingTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/detailDescription"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Apply Button -->
+        <Button
+            android:id="@+id/detailApplyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply Now"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#1E88E5"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>
